@@ -1,9 +1,11 @@
 package com.amazon.basics.controller.security.crypto;
 
 import javax.crypto.*;
+import javax.net.ssl.SSLServerSocketFactory;
 import javax.net.ssl.SSLSocketFactory;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.ServerSocket;
 import java.net.Socket;
 import java.security.KeyPairGenerator;
 import java.security.MessageDigest;
@@ -29,15 +31,23 @@ public class Encryption {
     }
 
     public String checkSocketEncryption() throws IOException {
-        //Incorrect
+        //Insecure
         Socket soc = new Socket("www.amazon.com",80);
 
-        //Correct - no error should be thrown
+        //Secure - no error should be thrown
         Socket secureSoc = SSLSocketFactory.getDefault().createSocket("www.amazon.com", 443);
+
+        // Insecure way
+        ServerSocket soc1 = new ServerSocket(1234);
+
+        //Secure way
+        ServerSocket soc1secure = SSLServerSocketFactory.getDefault().createServerSocket(1234);
 
         try {
             soc.close();
             secureSoc.close();
+            soc1.close();
+            soc1secure.close();
         } catch (IOException e) { /* failed */ }
         return("Unencrypted communication channel opened!");
     }
