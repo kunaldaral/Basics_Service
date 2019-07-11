@@ -1,9 +1,10 @@
 package com.amazon.basics.controller;
 
-import com.amazon.basics.controller.security.DuplicateCode;
-import com.amazon.basics.controller.security.Encryption;
-import com.amazon.basics.controller.security.Injection;
-import com.amazon.basics.controller.security.NullPointer;
+import com.amazon.basics.controller.security.crypto.Encryption;
+import com.amazon.basics.controller.security.crypto.PredictableRandom;
+import com.amazon.basics.controller.security.general.DuplicateCode;
+import com.amazon.basics.controller.security.general.NullPointer;
+import com.amazon.basics.controller.security.injection.Injection;
 import com.amazon.basics.domain.User;
 import com.amazon.basics.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,10 @@ public class UserController {
 
             try{
 
+                System.out.println("Invoking Predictable Random Number generator check");
+                PredictableRandom pr = new PredictableRandom();
+                System.out.println(pr.checkWeakRandomGenerator());
+
                 System.out.println("Invoking null Pointer check");
                 NullPointer np = new NullPointer();
                 System.out.println(np.checkNullPointer(optional.get()));
@@ -35,7 +40,7 @@ public class UserController {
                 DuplicateCode dc = new DuplicateCode();
                 System.out.println(dc.checkDuplicateCode());
 
-                System.out.println("Invoking Encryption checks");
+                System.out.println("Invoking crypto checks");
                 Encryption ey = new Encryption();
                 System.out.println(ey.checkRiskyEncryptionMD5(value));
                 System.out.println(ey.checkRiskyEncryptionSHA1(value));
@@ -45,11 +50,12 @@ public class UserController {
                 Injection ij = new Injection();
                 System.out.println(ij.checkCommandInjection(value));
                 System.out.println(ij.checkScriptEngineInjection(value));
+                System.out.println(ij.checkSQLQueryInjection(repository, value));
 
 
 
             }catch (Exception e){
-
+                return "";
             }
 
         } else {
@@ -84,5 +90,19 @@ public class UserController {
 
         return Collections.emptyList();
     }
+
+    @RequestMapping(value = "/path") //method = RequestMethod.GET - Purposely avoided, method now available
+                                     // to all calls POST, GET etc. (Can lead to CSRF attacks)
+    String readData() {
+        // No state-changing operations performed within this method.
+        return "";
+    }
+
+    @RequestMapping("/redirect")
+    public String redirect(@RequestParam("url") String url) {
+        // Redirection without validating user entered URL
+        return "redirect:" + url;
+    }
+
 }
 

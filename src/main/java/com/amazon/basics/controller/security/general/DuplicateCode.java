@@ -1,4 +1,4 @@
-package com.amazon.basics.controller.security;
+package com.amazon.basics.controller.security.general;
 
 public class DuplicateCode {
 

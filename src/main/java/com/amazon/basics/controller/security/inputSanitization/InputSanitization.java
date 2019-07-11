@@ -1,4 +1,4 @@
-package com.amazon.basics.controller.security;
+package com.amazon.basics.controller.security.inputSanitization;
 
 import java.io.BufferedReader;
 import java.io.IOException;

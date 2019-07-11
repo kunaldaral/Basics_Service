@@ -1,4 +1,4 @@
-package com.amazon.basics.controller.security;
+package com.amazon.basics.controller.security.injection;
 
 import com.amazon.basics.repository.UserRepository;
 
@@ -10,7 +10,7 @@ import java.io.File;
 public class Injection {
 
     public String checkCommandInjection(String image){
-        File file = new File("resources/images/", image); //Weak point
+        new File("resources/images/", image); //Weak point
         return("Unchecked command executed");
     }
 
@@ -26,4 +26,6 @@ public class Injection {
         return "Unsanitized user input passed to SQL Query";
     }
 
+//    SQL Injection pending
+//    SqlUtil.execQuery("select * from UserEntity t where id = " + parameterInput);
 }

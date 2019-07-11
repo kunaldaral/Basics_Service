@@ -1,4 +1,4 @@
-package com.amazon.basics.controller.security;
+package com.amazon.basics.controller.security.general;
 
 import com.amazon.basics.domain.User;
 

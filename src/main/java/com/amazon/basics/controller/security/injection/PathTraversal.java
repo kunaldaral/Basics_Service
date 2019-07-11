@@ -1,4 +1,4 @@
-package com.amazon.basics.controller.security;
+package com.amazon.basics.controller.security.injection;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
