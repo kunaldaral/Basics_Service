@@ -2,8 +2,8 @@ package com.amazon.basics.controller;
 
 import com.amazon.basics.controller.security.crypto.Encryption;
 import com.amazon.basics.controller.security.crypto.PredictableRandom;
-import com.amazon.basics.controller.security.general.DuplicateCode;
-import com.amazon.basics.controller.security.general.NullPointer;
+import com.amazon.basics.controller.general.DuplicateCode;
+import com.amazon.basics.controller.general.NullPointer;
 import com.amazon.basics.controller.security.improperConfig.ImproperConfiguration;
 import com.amazon.basics.controller.security.improperUse.ImproperUse;
 import com.amazon.basics.controller.security.injection.Injection;
@@ -43,7 +43,6 @@ public class UserController {
                 System.out.println("Invoking null Pointer check");
                 NullPointer np = new NullPointer();
                 System.out.println(np.checkNullPointer(optional.get()));
-
 
                 // Crypto
                 // PredictableRandom
