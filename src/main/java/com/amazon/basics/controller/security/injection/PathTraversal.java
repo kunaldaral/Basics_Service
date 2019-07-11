@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class PathTraversal {
 
-    String checkFileWrite(String filename){
+    public String checkFileWrite(String filename){
         try{
             FileWriter fw=new FileWriter(filename); //Unsanitized filename passed
             fw.write("Just some text.");
@@ -18,7 +18,7 @@ public class PathTraversal {
         return("Unsanitized input passed as filename to write to file");
     }
 
-    String checkFileRead(String filename) throws IOException{
+    public String checkFileRead(String filename) throws IOException{
         String file ="src/test/resources/" + filename; //unsanitized input might lead to wrong file being read
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String content = reader.readLine();

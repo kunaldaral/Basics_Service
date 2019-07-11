@@ -99,6 +99,8 @@ public class Encryption {
         Cipher c2 = Cipher.getInstance("DESede/ECB/PKCS5Padding");  // Instead use AES/GCM/NoPadding
 //        c.init(Cipher.ENCRYPT_MODE, k, iv);
         c.doFinal(value.getBytes());
+        c1.doFinal(value.getBytes());
+        c2.doFinal(value.getBytes());
 
         return "A no padding cipher was used";
     }

@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 
 public class InputSanitization {
 
-    String checkUnsanitizedInputFromBufferedReader() throws IOException{
+    public String checkUnsanitizedInputFromBufferedReader() throws IOException{
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String name = reader.readLine();
         System.out.println(name);
