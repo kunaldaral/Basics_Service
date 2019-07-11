@@ -52,6 +52,16 @@ public class Encryption {
         return("Unencrypted communication channel opened!");
     }
 
+    public String checkWeakCipher(String value) throws NoSuchAlgorithmException, NoSuchPaddingException,
+            IllegalBlockSizeException, BadPaddingException {
+
+        Cipher c = Cipher.getInstance("AES"); // Weak Cipher
+//        c.init(Cipher.ENCRYPT_MODE, k, iv);
+        c.doFinal(value.getBytes());
+
+        return "Weak AES Cipher used";
+    }
+
     public String checkUseOfDESCipher(String value) throws NoSuchAlgorithmException, NoSuchPaddingException,
             IllegalBlockSizeException, BadPaddingException {
 

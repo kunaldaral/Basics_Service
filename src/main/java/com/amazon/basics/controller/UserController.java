@@ -44,6 +44,7 @@ public class UserController {
                 NullPointer np = new NullPointer();
                 System.out.println(np.checkNullPointer(optional.get()));
 
+
                 // Crypto
                 // PredictableRandom
                 System.out.println("Invoking Predictable Random Number generator check");
@@ -55,6 +56,7 @@ public class UserController {
                 System.out.println(ey.checkRiskyEncryptionMD5(value));
                 System.out.println(ey.checkRiskyEncryptionSHA1(value));
                 System.out.println(ey.checkSocketEncryption());
+                System.out.println(ey.checkWeakCipher(value));
                 System.out.println(ey.checkUseOfDESCipher(value));
                 System.out.println(ey.checkUseOfDESedeCipher(value));
                 System.out.println(ey.checkCipherPadding(value));
