@@ -1,0 +1,36 @@
+
+qcom.amazon.basics.controller.security.crypto.Encryption#checkUseOfDESCipher(Ljava/lang/String;)Ljava/lang/String;€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaA A(%"1*Ž
+
+1€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaD D(ž
+›
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaD D(=
+%0javax.crypto.Cipher"Hjavax.crypto.Cipher#getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;*"
+javax.crypto.Cipher*
+DES/ECB/PKCS5PaddingÃ
+À
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaD D(>
+cjavax.crypto.Cipher"__id*
+
+%0javax.crypto.CipherÜÙ
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaF F("
+%1$Array"java.lang.String#getBytes()[B*
+
+valuejava.lang.String2
+getBytes()ðí
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaF F(#
+%2$Array"!javax.crypto.Cipher#doFinal([B)[B*
+
+cjavax.crypto.Cipher*
+
+%1$Array2doFinal([B)"Ì
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaH H(UGE
+CWeak DES Cipher was used. AES cipher should be recommended by tool.:
+valuejava.lang.StringB;9
+7com.amazon.basics.controller.security.crypto.Encryption

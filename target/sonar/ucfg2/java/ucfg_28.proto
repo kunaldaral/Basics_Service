@@ -1,0 +1,51 @@
+
+rcom.amazon.basics.controller.security.injection.PathTraversal#checkFileWrite(Ljava/lang/String;)Ljava/lang/String;Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java
+ 
+( "5*ˆ
+3Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (‚ﬂ
+Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (
+
+%3void"#java.io.OutputStreamWriter#close()V*
+
+fwjava.io.FileWriter2close()*
+1*Ó
+4Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (3»
+≈
+Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (3
+fwjava.io.FileWriter"__id*
+
+%0java.io.FileWriterèå
+Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java ('
+
+%2void")java.io.Writer#write(Ljava/lang/String;)V*
+
+fwjava.io.FileWriter*
+Just some text.2write(Ljava/lang/String;)*
+3*œ
+5Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java) (1∫∑
+Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java ((
+%0java.io.FileWriter"java.io.FileWriter˛
+˚
+Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (2
+%1".java.io.FileWriter#<init>(Ljava/lang/String;)V*
+
+%0java.io.FileWriter*
+
+filenamejava.lang.String*
+4*†
+1Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (F"ë
+Ü
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (H
+"":
+filenamejava.lang.StringBA?
+=com.amazon.basics.controller.security.injection.PathTraversal

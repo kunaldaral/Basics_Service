@@ -1,0 +1,65 @@
+
+vcom.amazon.basics.controller.UserController#createUser(Lcom/amazon/basics/domain/User;)Lcom/amazon/basics/domain/User;v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java‡	 ‡("paramAnnotations*¶
+paramAnnotationsv
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java‡ ‡(+ï
+ì
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java† †(
+%4"
+__annotate*75
+3org.springframework.web.bind.annotation.PostMapping*'
+%
+usercom.amazon.basics.domain.Userï
+ì
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java‡ ‡( 
+%5"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*'
+%
+usercom.amazon.basics.domain.UserÀ
+½
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java‡& ‡(*%
+usercom.amazon.basics.domain.User"__annotation*
+
+%4*
+
+%5*
+1*‡
+
+1v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.javaˆ ˆ(¤
+¡
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.javaˆ ˆ(
+%0java.io.PrintStream"__id*
+""†ƒ
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.javaˆ ˆ(+
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+Creating User2println(Ljava/lang/String;)õ
+ò
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java‰ ‰(1
+%2+com.amazon.basics.repository.UserRepository"__id*?*=-
++com.amazon.basics.controller.UserController"
+
+repositoryÛØ
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java‰ ‰($
+%3S"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*3
+1
+%2+com.amazon.basics.repository.UserRepository*'
+%
+usercom.amazon.basics.domain.User2save(Ljava/lang/Object;)"ƒ
+v
+jC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\UserController.java‰ ‰(%	
+
+%3S:%
+usercom.amazon.basics.domain.UserB/-
++com.amazon.basics.controller.UserController

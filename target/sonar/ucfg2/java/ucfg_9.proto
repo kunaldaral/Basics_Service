@@ -1,0 +1,43 @@
+
+ucom.amazon.basics.controller.security.crypto.Encryption#checkRiskyEncryptionMD5(Ljava/lang/String;)Ljava/lang/String;Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java ()"1*∆
+1Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java" (/≠
+™
+Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java" (B!
+%0java.security.MessageDigest"Xjava.security.MessageDigest#getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;*"
+java.security.MessageDigest*
+MD5€
+ÿ
+Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java (C(
+	md5Digestjava.security.MessageDigest"__id*#
+!
+%0java.security.MessageDigestèå
+Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java (4
+%1$Array"/java.lang.String#getBytes(Ljava/lang/String;)[B*
+
+passwordjava.lang.String*
+
+UTF-162getBytes(Ljava/lang/String;)ÉÄ
+Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java (5
+
+%2void"'java.security.MessageDigest#update([B)V**
+(
+	md5Digestjava.security.MessageDigest*
+
+%1$Array2
+update([B)ÚÔ
+Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java (0
+%3$Array"&java.security.MessageDigest#digest()[B**
+(
+	md5Digestjava.security.MessageDigest2digest()"¢
+Ä
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.java (+
+MD5 risky encryption used:
+passwordjava.lang.StringB;9
+7com.amazon.basics.controller.security.crypto.Encryption

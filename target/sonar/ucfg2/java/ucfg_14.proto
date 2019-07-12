@@ -1,0 +1,36 @@
+
+tcom.amazon.basics.controller.security.crypto.Encryption#checkUseOfDESedeCipher(Ljava/lang/String;)Ljava/lang/String;€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaK K(("1*­
+
+1€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaN N(¡
+ž
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaN N(@
+%0javax.crypto.Cipher"Hjavax.crypto.Cipher#getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;*"
+javax.crypto.Cipher*
+DESede/ECB/PKCS5PaddingÃ
+À
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaN N(A
+cjavax.crypto.Cipher"__id*
+
+%0javax.crypto.CipherÜÙ
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaP P("
+%1$Array"java.lang.String#getBytes()[B*
+
+valuejava.lang.String2
+getBytes()ðí
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaP P(#
+%2$Array"!javax.crypto.Cipher#doFinal([B)[B*
+
+cjavax.crypto.Cipher*
+
+%1$Array2doFinal([B)"è
+€
+vC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\crypto\Encryption.javaR R(qca
+_Weak DESede Cipher was used. It is good for modern applications but NIST recommends AES cipher.:
+valuejava.lang.StringB;9
+7com.amazon.basics.controller.security.crypto.Encryption

@@ -1,0 +1,52 @@
+
+tcom.amazon.basics.controller.general.NullPointer#checkNullPointer(Lcom/amazon/basics/domain/User;)Ljava/lang/String;y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java (""6*”
+4y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java
+ 
+(*Ž‹
+y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java
+ 
+(*
+
+%2void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
+
+%0java.io.PrintStream*
+
+%1java.lang.Long2println(Ljava/lang/Object;)*
+1*«
+5y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java
+ 
+(§
+¤
+y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java
+ 
+(
+%0java.io.PrintStream"__id*
+""ûø
+y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java
+ 
+()
+%1java.lang.Long"5com.amazon.basics.domain.User#getId()Ljava/lang/Long;*%
+#
+umcom.amazon.basics.domain.User2getId()*
+4*·
+6y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java (±
+®
+y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java (#
+umcom.amazon.basics.domain.User"__id*
+""*
+5*„
+1y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java (-"ƒ
+y
+oC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\general\NullPointer.java (/
+"":#
+umcom.amazon.basics.domain.UserB42
+0com.amazon.basics.controller.general.NullPointer

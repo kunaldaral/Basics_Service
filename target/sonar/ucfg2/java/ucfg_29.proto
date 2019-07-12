@@ -1,0 +1,63 @@
+
+qcom.amazon.basics.controller.security.injection.PathTraversal#checkFileRead(Ljava/lang/String;)Ljava/lang/String;†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java ("1*¡
+1†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (*ç
+ä
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (5
+%0java.lang.String"__concat*
+src/test/resources/*
+
+filenamejava.lang.StringÆ
+Ã
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (6
+filejava.lang.String"__id*
+
+%0java.lang.Stringº·
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java7 (A
+%1java.io.FileReader"java.io.FileReaderú
+÷
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java3 (G
+%2".java.io.FileReader#<init>(Ljava/lang/String;)V*
+
+%1java.io.FileReader*
+
+filejava.lang.StringÂ¿
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java$ (2
+%3java.io.BufferedReader"java.io.BufferedReader€
+ý
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java  (H
+%4"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*
+
+%3java.io.BufferedReader*
+
+%1java.io.FileReaderÔ
+Ñ
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (I 
+readerjava.io.BufferedReader"__id*
+
+%3java.io.BufferedReader‰†
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (*
+%5java.lang.String"3java.io.BufferedReader#readLine()Ljava/lang/String;*"
+ 
+readerjava.io.BufferedReader2
+readLine()æã
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (
+
+%6void"java.io.BufferedReader#close()V*"
+ 
+readerjava.io.BufferedReader2close()"‘
+†
+|C:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\PathTraversal.java (I
+"":
+filenamejava.lang.StringBA?
+=com.amazon.basics.controller.security.injection.PathTraversal

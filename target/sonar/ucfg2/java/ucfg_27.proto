@@ -1,0 +1,20 @@
+
+£com.amazon.basics.controller.security.injection.Injection#checkSQLQueryInjection(Lcom/amazon/basics/repository/UserRepository;Ljava/lang/String;)Ljava/lang/String;‚
+xC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\Injection.java (("1*¿
+1‚
+xC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\Injection.java (üù
+‚
+xC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\Injection.java (*
+%0java.util.List"\com.amazon.basics.repository.UserRepository#searchByName(Ljava/lang/String;)Ljava/util/List;*;
+9
+
+repository+com.amazon.basics.repository.UserRepository*
+
+	firstNamejava.lang.String2 searchByName(Ljava/lang/String;)"µ
+‚
+xC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\injection\Injection.java (<.,
+*Unsanitized user input passed to SQL Query:9
+
+repository+com.amazon.basics.repository.UserRepository:
+	firstNamejava.lang.StringB=;
+9com.amazon.basics.controller.security.injection.Injection

@@ -1,0 +1,45 @@
+
+xcom.amazon.basics.controller.security.privacy.Privacy#checkCookieSecurity(Ljava/lang/String;)Ljavax/servlet/http/Cookie;~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java (%"1*ß
+1~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java# (.¿¼
+~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java ("
+%0javax.servlet.http.Cookie"javax.servlet.http.Cookie¥
+¢
+~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java (9
+%1"Gjavax.servlet.http.Cookie#<init>(Ljava/lang/String;Ljava/lang/String;)V*!
+
+%0javax.servlet.http.Cookie*
+	sessionID*
+
+	sessionIDjava.lang.StringÑ
+Î
+~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java (:#
+cookiejavax.servlet.http.Cookie"__id*!
+
+%0javax.servlet.http.Cookieõò
+~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java	 	(
+
+%2void"'javax.servlet.http.Cookie#setSecure(Z)V*%
+#
+cookiejavax.servlet.http.Cookie*
+""2setSecure(Z)ùö
+~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java
+ 
+(!
+
+%3void")javax.servlet.http.Cookie#setHttpOnly(Z)V*%
+#
+cookiejavax.servlet.http.Cookie*
+""2setHttpOnly(Z)"§
+~
+tC:\Users\daralk\IdeaProjects\Basics_Service\src\main\java\com\amazon\basics\controller\security\privacy\Privacy.java (%
+#
+cookiejavax.servlet.http.Cookie:
+	sessionIDjava.lang.StringB97
+5com.amazon.basics.controller.security.privacy.Privacy

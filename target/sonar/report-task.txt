@@ -1,0 +1,7 @@
+organization=kunaldaral-github
+projectKey=kunaldaral_Basics_Service
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.27355
+dashboardUrl=https://sonarcloud.io/dashboard?id=kunaldaral_Basics_Service
+ceTaskId=AWvjMcJMzU3INxZBp_4Z
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWvjMcJMzU3INxZBp_4Z
